@@ -17,7 +17,7 @@ d'évènements ou de concours.
 
 Pourquoi être membre actif ?
 -----
-Pour découvrir le monde de la 3D.
-Pour stimuler sa créativité.
-Pour avoir un pied dans l'innovation technologique en matière de 3D.
-Pour mettre en avant ses productions visuelles.
+- Pour découvrir le monde de la 3D.
+- Pour stimuler sa créativité.
+- Pour avoir un pied dans l'innovation technologique en matière de 3D.
+- Pour mettre en avant ses productions visuelles.
