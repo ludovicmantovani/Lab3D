@@ -55,3 +55,6 @@ target/
 
 # Blender save version
 *.blend[0-9]
+
+# Tempory powerpoint files
+~$*
