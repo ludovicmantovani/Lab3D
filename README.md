@@ -1,3 +1,4 @@
+![logo](https://raw.github.com/ludovicmantovvani/Lab3D/master/img/logo3.jpg)
 Lab3D
 =====
 Finalité du club:
