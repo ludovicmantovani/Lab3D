@@ -1,4 +1,4 @@
-![](/img/logo1.jpg?raw=true)
+![logo Lab3D](/img/logo1.jpg?raw=true)
 =====
 Finalité du club :
 -----
