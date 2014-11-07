@@ -1,6 +1,6 @@
 ![](/img/logo1.jpg?raw=true)
 =====
-Finalité du club:
+Finalité du club :
 -----
 Le but du club est de familiariser ses participants à l'univers de l'infographie 3D.
 Au cours des séances, les étudiants pourront découvrir le logiciel de 3D Blender et
