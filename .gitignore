@@ -58,3 +58,6 @@ target/
 
 # Tempory powerpoint files
 ~$*
+
+# Back office
+script/
