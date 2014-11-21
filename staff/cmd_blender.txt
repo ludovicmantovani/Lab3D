@@ -1,0 +1,4 @@
+C = py.context
+l_obj = C.scene.objects.items()
+for elem in l_obj:
+	print(elem[0] + ' ' + elem[1].type)

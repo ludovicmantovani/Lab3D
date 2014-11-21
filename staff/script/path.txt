@@ -1,0 +1,3 @@
+"C:\Program Files\Blender Foundation\Blender\blender.exe"
+"E:\."
+"C:\Users\Ludovic\Documents\GitHub\Lab3D\seance_1\production"
