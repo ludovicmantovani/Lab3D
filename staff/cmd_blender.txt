@@ -30,3 +30,7 @@ blend4web
 
 >>> C.user_preferences.addons.find("blend4web")
 15
+
+----
+pour la fusion d'images
+http://jlbicquelet.free.fr/scripts/python/pil/pil.php#manipulation3

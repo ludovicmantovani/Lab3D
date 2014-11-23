@@ -10,7 +10,6 @@ print(len(sys.argv))
 print(sys.argv)
 
 if len(sys.argv) == 4:
-    print "coucou"
     blender_path = sys.argv[1]
     src_path = sys.argv[2]
     dst_path = sys.argv[3]
