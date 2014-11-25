@@ -8,7 +8,7 @@ nom "VERRE"
 Dans Diffuse
 	Color : R = 0.7; G = 0.95; B = 0.7
 	Lambert -> Oren-Nayar
-	Intensity = 0.1
+	Intensity = 1
 	Roughness = 0.05
 
 Dans Specular
