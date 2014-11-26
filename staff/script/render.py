@@ -6,9 +6,6 @@ blender_test = False
 src_test = False
 dst_test = False
 
-print(len(sys.argv))
-print(sys.argv)
-
 if len(sys.argv) == 4:
     blender_path = sys.argv[1]
     src_path = sys.argv[2]
