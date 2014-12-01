@@ -8,10 +8,7 @@ RIGHT_MARGE = 1
 BOTTOM_MARGE = 1
 
 
-if len(sys.argv) == 3:   
-    logo_path = sys.argv[1]
-    img_path = sys.argv[2]
-
+def tag(logo_path, img_path):
     if os.path.exists(logo_path) and os.path.isfile(logo_path): # TODO add extenxion control
         if os.path.exists(img_path) and os.path.isfile(img_path): # TODO add extenxion control
             #ouvrir le logo
@@ -53,5 +50,11 @@ if len(sys.argv) == 3:
             print('Picture failed')
     else:
         print('Logo failed')
-else:
-    print('[usage]: python ' + sys.argv[0] + ' "logo path" ' +'"picture path"')
+
+if __name__ == '__main__':
+    if len(sys.argv) == 3:
+        logo_path = sys.argv[1]
+        img_path = sys.argv[2]
+        tag(logo_path, img_path)
+    else:
+        print('[usage]: python "' + sys.argv[0] + '" "logo path" ' +'"picture path"')
