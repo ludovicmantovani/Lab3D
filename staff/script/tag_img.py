@@ -7,7 +7,6 @@ LOGO_HEIGHT = 10
 RIGHT_MARGE = 1
 BOTTOM_MARGE = 1
 
-
 def tag(logo_path, img_path):
     if os.path.exists(logo_path) and os.path.isfile(logo_path): # TODO add extenxion control
         if os.path.exists(img_path) and os.path.isfile(img_path): # TODO add extenxion control
@@ -44,7 +43,10 @@ def tag(logo_path, img_path):
             img.paste(logo, (l_x, l_y, l_x + logo_w, l_y + logo_h))
 
             #save
-            img.save("test.jpg", "JPEG")
+            img.save(os.path.join(os.path.split(img_path)[0],"rendu.jpg"), "JPEG")
+
+            #supp de l'original
+            os.remove(img_path)
             
         else:
             print('Picture failed')
