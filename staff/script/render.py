@@ -2,6 +2,11 @@ import sys, os
 import shutil
 from subprocess import *
 
+import tag_img
+
+FRAME_NUMBER = 1
+LOGO_PATH = "..\..\img\logo3.jpg"
+
 blender_test = False
 src_test = False
 dst_test = False
@@ -63,13 +68,16 @@ if len(sys.argv) == 4:
 
                         if not(os.path.exists(file_dest_path_rendu) and os.path.isfile(file_dest_path_rendu)):
                             print (folder + '\n\t' + name)
-                            commande = [blender_path, "-b", file_src_path, "-o", file_dest_path_rendu, "-F", "JPEG", "-x", "1", "-f", "1"]
+                            commande = [blender_path, "-b", file_src_path, "-o", file_dest_path_rendu, "-F", "JPEG", "-x", "1", "-f", str(FRAME_NUMBER)]
                             out = Popen(commande,stdout=PIPE)
                             (sout,serr)=out.communicate()
                             #if sout and len(sout) > 0:
                                 #print "Sout : " + sout
                             #if serr and len(serr) > 0:
                                 #print "Error : " + serr
+                            blender_generate_path_file = file_dest_path_rendu + str(FRAME_NUMBER).rjust(4,'0') + '.jpg'
+                            os.rename(blender_generate_path_file, file_dest_path_rendu + ".jpg")
+                            tag_img.tag(LOGO_PATH,file_dest_path_rendu + ".jpg")
                         else:
                             print 'Skip rendu ' + file + ' in ' + folder
     else:
