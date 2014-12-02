@@ -7,6 +7,10 @@ LOGO_HEIGHT = 10
 RIGHT_MARGE = 1
 BOTTOM_MARGE = 1
 
+#TODO def tag_dir
+#TODO def tag_dir_rec
+#TODO do not remove name
+
 def tag(logo_path, img_path):
     if os.path.exists(logo_path) and os.path.isfile(logo_path): # TODO add extenxion control
         if os.path.exists(img_path) and os.path.isfile(img_path): # TODO add extenxion control
