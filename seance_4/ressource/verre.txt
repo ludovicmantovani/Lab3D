@@ -1,0 +1,26 @@
+Création de votre premier matériau sous le Blender render:
+Le Verre
+*****************
+Dans "Material"
+New
+nom "VERRE"
+
+Dans Diffuse
+	Color : R = 0.7; G = 0.95; B = 0.7
+	Lambert -> Oren-Nayar
+	Intensity = 1
+	Roughness = 0.05
+
+Dans Specular
+	Intensity = 1
+	Hardness = 85
+
+Dans Transparency (a activer)
+	Raytrace
+	Alpha = 0.03
+	IOR = 1.55
+	Filter = 0.05
+	Depth = 10
+
+Dans Mirror (a activer)
+	Reflectivity = 0.1
