@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8" />
-	<title>Lab3D test</title>
+	<title>Lab3D</title>
     <style>
 		body, html {
 			margin: 0; 
@@ -27,7 +27,7 @@
         var canvas = document.getElementById("renderCanvas");
         var engine = new BABYLON.Engine(canvas, true);
 
-        BABYLON.SceneLoader.Load("", "mod/test.babylon", engine, function (newScene) {
+        BABYLON.SceneLoader.Load("", "mod/suzanne.babylon", engine, function (newScene) {
             // Wait for textures and shaders to be ready
             newScene.executeWhenReady(function () {
 			var meshes = newScene.meshes;
