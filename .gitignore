@@ -60,3 +60,4 @@ target/
 ~$*
 
 video/
+*.db
