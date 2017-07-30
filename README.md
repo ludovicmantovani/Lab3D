@@ -1,9 +1,9 @@
 ![logo Lab3D](/img/logo1.jpg?raw=true)
 =====
-Finalité du club :
+Finalité du club à L'ESPI Lille:
 -----
 Le but du club est de familiariser ses participants à l'univers de l'infographie 3D.
-Au cours des séances, les étudiants pourront découvrir le logiciel de 3D Blender et
+Au cours des séances dans une salle du campus, les étudiants pourront découvrir le logiciel de 3D Blender et
 s'essayer dans la production d'images de synthèses, de vidéos d'animations
 voire même de jeux vidéo pour les plus téméraires.
 
